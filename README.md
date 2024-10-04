@@ -5,7 +5,7 @@ Antes de nada, vou deixar un enlace a un documento de google no que podese obser
 Para conprobar que temos esta imaxe, debemos utilizar o comando `docker images` xa que lista todas as imaxes do noso sistema.
 
 ## Crea un contenedor de nome 'asir_httpd'.
-Para crear o contenedor co nome *asir_httpd*  utilizaremos o comando `docker run --name <nome do contenedor> <imaxe>` : No meu caso utilicei o "Run" xa que asi o lanzo xa, pero se queremos soo crealo debemos utilizar o comando pero cambiando el run por *create*
+Para crear o contenedor co nome *asir_httpd*  utilizaremos o comando `docker run --name <nome do contenedor> <imaxe>` : No meu caso utilicei o "run" xa que asi o lanzo xa, pero se queremos soo crealo debemos utilizar o comando pero cambiando el *run* por *create*
 
 ## Mapea o porto 80 do contenedor có 8080 da túa máquina.Utiliza bind mount para que o directorio do apache2 'htdocs' estea montado nun directorio da túa elección. Utiliza -v "$PWD"/htdocs:/usr/local/apache2/htdocs/.
 
