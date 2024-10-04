@@ -12,7 +12,9 @@ Para crear o contenedor co nome *asir_httpd*  utilizaremos o comando `docker run
 
 
 
-Para crear o contenedor co nome *asir_httpd* como fixemos no anterior punto e mapear o porto 80 do contenedor e o -v coa ruta dada.Lancei o seguinte comando que e un conxunto de comandos '*`-p 8080:80`*' para mapear o porto 80 e logo co comando seguinte montamos o directorio htdocs do servidor apache: `-v "<Directorio_montar>:/usr/local/apache2/htdocs/ <imaxe>`, e para finalizar, o conxunto dos anteriores comandos é o seguinte: `docker run --name asir_httpd -p 8080:80 -v /home/postgres/server:/usr/local/apache2/htdocs httpd`
+Para crear o contenedor co nome *asir_httpd*, mapear o porto 80 do contenedor e utilizar o -v coa ruta dada, debemos lanzar os seguntes comandos: Primeiro `docker run --name asir_httpd` para poner o nome do contenedor, logo `-p 8080:80` para mapear o porto 80 e por ultimo co comando :`-v "<Directorio_montar>:/usr/local/apache2/htdocs/ <imaxe>` montamos o directorio htdocs do servidor apache.
+En conclusion, o conxunto dos anteriores comandos é o seguinte: `docker run --name asir_httpd -p 8080:80 -v /home/postgres/server:/usr/local/apache2/htdocs httpd`
+
 >[!NOTE]
 >Esta imaxe conten o contido da carpeta server do meu directorio principal *(/home/postgres/server)*
 
