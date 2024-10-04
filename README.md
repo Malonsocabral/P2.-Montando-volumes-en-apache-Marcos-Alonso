@@ -1,4 +1,4 @@
-# P2.-Montando-volumes-en-apache-Marcos-Alonso
+# P2_Montando volumes en apache_Marcos Alonso Cabral_ASIR2
 Antes de nada, vou deixar un enlace a un documento de google no que podese observar mediante imaxes o proceso: [LINK_DOCUMENTO](https://docs.google.com/document/d/1KCy6HQL_wxuUOtnaGHkqYr84U7D4Jz7HQ5BeaPTw15o/edit?usp=sharing).
 ## Comproba que a tes a imaxe httpd
 
